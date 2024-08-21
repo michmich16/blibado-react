@@ -16,7 +16,7 @@ function App() {
         <Header />
         <Navbar />
         <h2>Om os</h2>
-        <About video='videoblibado.mp4' aboutHeader='Begyndelsen' aboutText='Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus eius nulla, nisi commodi a voluptatum amet doloremque, unde beatae sit inventore, illum provident sed eos. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam vel magni sunt laudantium deleniti eos dolorum magnam. Velit aut ducimus, sunt repellendus nulla, rem quia numquam, cupiditate eum incidunt sequi!' />
+        <About video='videoblibado.mp4' aboutHeader='Begyndelsen' aboutText='Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus eius nulla, nisi commodi a voluptatum amet doloremque, unde beatae sit inventore, illum provident sed eos. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam vel magni sunt laudantium deleniti eos dolorum magnam. Velit aut ducimus, sunt repellendus nulla' />
         <h2>Locations</h2>
         <div className='locationGrid'>
         <Location img='Location-01-01.jpg' locationHeader='Location 1' locationAdult='2' locationChild='3' locationWashingMachine='Ja' locationReservationReq='Minimum reservation er 3 nætter for at kunne tilbyde længere ophold. Spørg venligst ikke om mindre.' locationPrice='600' locationDescription='Lejligheden ligger i en gammel bygning med høj til loftet, masser af lys og en balkon, der vender lige mode syd, så du kan nyde solopgangen og solnedgangen med udsigt over havet og den lille havn.' />
