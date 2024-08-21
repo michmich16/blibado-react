@@ -1,0 +1,20 @@
+@import '../../assets/helper/Helper.scss';
+
+
+    .aboutStyle{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 1rem;
+        video{
+            width: 100%;
+        }
+        article{
+            padding: 0 1rem;
+            h3{
+                padding: 1rem 0;
+                color: $headings;
+                font-weight: 400;
+            }
+        }
+    }
+

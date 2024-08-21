@@ -1,0 +1,39 @@
+@import '../../assets/helper/Helper.scss';
+
+.footerStyle {
+    background-color: $dark;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+    gap: 2rem;
+
+    .footerLocationStyle {
+        padding: 0.5rem 0;
+        color: $logo-blue;
+
+        h3 {
+            padding-bottom: 1rem;
+        }
+
+        iframe {
+            width: 100%;
+            height: 120px;
+            border: 0;
+        }
+    }
+
+    .footerInformationStyle {
+        padding: 0.5rem 0;
+        color: $logo-blue;
+
+        h3 {
+            padding-bottom: 1rem;
+        }
+
+        ul {
+            li {
+                list-style: none;
+            }
+        }
+    }
+}

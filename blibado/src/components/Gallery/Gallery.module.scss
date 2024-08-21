@@ -1,0 +1,17 @@
+.galleryStyle{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+    img{
+        width: 100%;
+    }
+    .galleryImages{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.5rem;
+        img{
+            width: 100%;
+        }
+    }
+}

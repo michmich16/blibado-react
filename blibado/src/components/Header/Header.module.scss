@@ -1,7 +1,33 @@
+@import '../../assets/helper/Helper.scss';
+
 .headerStyle{
     display: flex;
     flex-direction: column;
+    padding: 1rem;
     h1{
-        
+        color: $logo-blue;
+        font-size: 5rem;
+        font-weight: 700;
+        span:first-of-type {
+            // Your styles for the first span
+            color: $logo-yellow;
+          }
+      
+          // Target the second span inside the h1
+          span:nth-of-type(2) {
+            // Your styles for the second span
+            color: $logo-red;
+          }
+          span:nth-of-type(3) {
+            // Your styles for the second span
+            color: $medium;
+            font-size: 2rem;
+            font-weight: 400;
+          }
+    }
+    h2{
+        color: $logo-blue;
+        font-size: 2rem;
+        font-weight: 400;
     }
 }

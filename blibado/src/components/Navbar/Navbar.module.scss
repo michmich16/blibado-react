@@ -1,0 +1,19 @@
+@import '../../assets/helper/Helper.scss';
+
+.navbarStyle{
+    display: flex;
+    flex-direction: row;
+    background-color: $dark;
+    ul{
+        display: flex;
+        li{
+            list-style: none;
+            padding: 0.5rem 1rem;
+            a{
+                text-decoration: none;
+                color: $light;
+                font-size: 1.2rem;   
+            }
+        }
+    }
+}

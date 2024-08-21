@@ -1,4 +1,21 @@
-*{
-margin: 0;
-padding: 0;
+@import './src/assets/helper/Helper.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+
+    body {
+        background-color: $light;
+        h2{
+            font-size: 2rem;
+            padding: 1rem;
+            font-weight: 400;
+            color: $headings;
+        }
+        .locationGrid{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
 }
